@@ -1,3 +1,7 @@
+body > header {
+  background: #FFEAAA;
+}
+
 nav {
   padding: 0.1em;
 }
@@ -20,10 +24,25 @@ nav li {
   border-bottom: 1px solid #ccc;
 }
 
-a:hover, a:focus {
-  color: #29506D;
+address {
+  color: #777;
+  display: inline-block;
+}
+
+address a {
+  font-weight: bold;
+  text-decoration: none;
 }
 
 p {
   font-size: 1em;
+}
+
+a, a:link, a:active {
+  text-decoration: none;
+  color: #777;
+}
+
+a:hover, a:focus {
+  color: #29506D;
 }

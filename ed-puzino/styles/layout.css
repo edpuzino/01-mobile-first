@@ -1,3 +1,47 @@
+header section {
+  max-width: 80%;
+  float: left;
+  padding: 0 0 .2em 1em;
+}
+
+select {
+  width: 90%;
+  margin: .2em 5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  margin: 1em;
+  width: 80%;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.icon-menu {
+  font-size: 3em;
+  float: right;
+}
+
+#filters {
+  padding: 0;
+  list-style: none;
+}
+
 @media only screen and (min-width: 640px) {
   header section {
     padding: .1em .1em .1em 2em;
@@ -12,14 +56,6 @@
   #filters li {
     display: inline;
   }
-}
-
-.pull-left {
-  float: left;
-}
-
-.pull-right {
-  float: right;
 }
 
 @media only screen and (min-width: 640px) {
@@ -43,42 +79,4 @@
   nav ul li:hover a {
     color: #29506D;
   }
-}
-
-select {
-  width: 90%;
-  margin: .2em 5%;
-}
-
-img {
-  max-width: 100%;
-}
-
-hr {
-  margin: 1em;
-  width: 80%;
-}
-address {
-  color: #777;
-  display: inline-block;
-}
-
-address a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-a, a:link, a:active {
-  text-decoration: none;
-  color: #777;
-}
-
-.icon-menu {
-  font-size: 3em;
-  float: right;
-}
-
-#filters {
-  padding: 0;
-  list-style: none;
 }
